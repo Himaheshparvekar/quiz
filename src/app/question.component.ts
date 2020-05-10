@@ -8,5 +8,13 @@ import {Component} from '@angular/core'
 )
 
 export class QuestionComponent {
+    question:string;
+
+
+    post(question)
+    {
+        console.log(question);
+
+    }
 
 }
