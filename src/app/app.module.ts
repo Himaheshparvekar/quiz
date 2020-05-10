@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import {QuestionComponent} from './question.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import {MatCardModule} from '@angular/material/card';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,QuestionComponent
@@ -14,7 +16,7 @@ import {MatCardModule} from '@angular/material/card';
   imports: [
     BrowserModule,MatSliderModule,MatInputModule,MatCardModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
